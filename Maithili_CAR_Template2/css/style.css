@@ -1,0 +1,942 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header container */
+.header {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* Top logo/contact section */
+.logo {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Social media icons */
+.logo1 {
+    display: flex;
+    gap: 30px;
+}
+
+/* Telephone information */
+.logo2 {
+    display: flex;
+    color: white;
+}
+
+/* Email information */
+.logo3 {
+    display: flex;
+    color: white;
+}
+
+/* Navigation bar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+/* Mobile menu button */
+.navbar button {
+    height: 50px;
+    width: 50px;
+    background-color: #ff8201;
+    margin-top: 0;
+    margin-left: auto;
+}
+
+/* Navigation links are hidden initially */
+.nav {
+    display: none;
+}
+
+/* Hero slider arrows are hidden initially */
+.arrow {
+    display: none;
+}
+
+/* Main hero/background section */
+.hero {
+    height: 320px;
+    width: 100%;
+    background-image: url(../images/background/driver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+
+/* Hero text is hidden initially */
+.main {
+    display: none;
+}
+
+/* Sketch/car information section */
+.sketch {
+    width: 100%;
+
+    background: linear-gradient(to top, rgb(253, 252, 252), rgba(250, 250, 250, 0.5)), url(../images/background/car_sketch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Text content inside sketch section */
+.para {
+    padding-top: 200px;
+
+    width: 100%;
+    padding-left: 10px;
+}
+
+/* Book now button */
+.para button {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: #ff8201;
+    border: 2px solid #ff8201;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* Services section */
+.block {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+/* Services heading */
+.hed {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+
+/* Service icons */
+.block img {
+    border: 2px dotted black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/* Service description text */
+.block p {
+    color: rgb(133, 125, 125);
+}
+
+/* Service headings */
+.block h3 {
+    padding-top: 30px;
+}
+
+/* Main car information text section */
+.temp {
+    padding-top: 50px;
+}
+
+/* Paragraph with grey text */
+.par {
+    color: grey;
+}
+
+/* Book this car button */
+.temp button {
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid white;
+    background-color: #ff8201;
+}
+
+/* Car demonstration section */
+.demo {
+
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Car title and arrow icons */
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imge img {
+    height: 200px;
+    width: 350px;
+}
+
+/* Customer review section */
+.review {
+
+    background-color: black;
+    padding-left: 10px;
+}
+
+/* Review heading */
+.review h3 {
+    padding-top: 150px;
+    color: white;
+}
+
+/* Review paragraph */
+.review p {
+    padding-top: 20px;
+    color: gray;
+}
+
+/* Quotation icon */
+.img {
+    display: none;
+}
+
+/* Dashed line image */
+.img2 {
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+
+
+/* Author image */
+.author img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+
+}
+
+/* Author name */
+.author h2 {
+    padding-top: 10px;
+    color: white;
+
+}
+
+/* Author information container */
+.author {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Author designation */
+.adam h4 {
+    color: rgb(206, 202, 202);
+}
+
+.adam h2 {
+    font-size: 20px;
+}
+
+.info p {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* Blog heading and previous/next buttons */
+.head {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+
+    color: rgb(185, 181, 181);
+
+}
+
+
+
+/* Latest news section */
+.news {
+    padding-top: 50px;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.news1 img {
+    padding-top: 50px;
+    height: 200px;
+    width: 350px;
+}
+
+/* News image */
+.car1 img {
+
+    width: 100%;
+}
+
+/* News paragraph */
+.car1 p {
+    padding-top: 10px;
+    color: gray;
+}
+
+/* News information content */
+.info1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info1 h2 {
+    color: black;
+}
+
+/* News information text */
+.info1 p {
+    color: gray;
+}
+
+/* View more button */
+.info1 button {
+    background-color: white;
+    border: none;
+    color: #ff8201;
+    text-align: end;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+}
+
+/* First footer links */
+.foot1 {
+    color: rgb(129, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+/* Second footer links */
+.foot2 {
+    color: rgb(129, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+/* Footer copyright section */
+.foot3 {
+    color: rgb(129, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 20px;
+}
+
+
+/* Tablet view */
+@media (min-width: 768px) {
+
+    
+    .logo {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+  
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+    .hero {
+        width: 100%;
+        height: 500px;
+    }
+
+   
+    .main {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
+        padding-top: 200px;
+    }
+
+    
+    .arrow {
+        display: none;
+    }
+
+    
+    .main span {
+        color: #ff8201;
+    }
+
+    /* Hero buttons */
+    .button1 button {
+        height: 50px;
+        width: 200px;
+        border-radius: 30px;
+        color: white;
+        border: 2px solid white;
+        background-color: #ff8201;
+    }
+
+   
+    .sketch {
+        width: 100vw;
+        height: 600px;
+    }
+
+    .block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   
+    .block1 {
+        width: 40%;
+    }
+
+   
+    .hed {
+        display: flex;
+        justify-content: start;
+        margin-left: 50px;
+        padding-top: 100px;
+    }
+
+   
+    .temp {
+        height: 400px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+   
+    .temp button {
+        margin-right: 400px;
+    }
+
+    
+    .icon img {
+        display: none;
+    }
+
+    
+    .img {
+        display: block;
+        height: 100px;
+        width: 100px;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+   
+    .img2 {
+        padding-left: 200px;
+    }
+
+  
+    .review {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    .info P {
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+
+
+   
+    .author {
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    
+    .news1 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news1 img {
+        margin-top: 150px;
+    }
+
+  
+    .car1 {
+        height: 100%;
+        width: 100%;
+        padding-top: 150px;
+    }
+
+  
+    .footer {
+        display: flex;
+        gap: 200px
+    }
+}
+
+
+/* Desktop view */
+@media(min-width:992px) {
+
+  
+    .logo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+   
+    .navbar button {
+        display: none;
+    }
+
+   
+    header {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    /* Desktop navigation bar */
+    .navbar {
+        height: 100%;
+        width: 80%;
+        margin: -25px auto 0;
+        padding: 12px 40px;
+        background-color: #ffffff;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        position: sticky;
+    }
+
+   
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    
+    .home {
+        color: #ff8201;
+    }
+
+  
+    a {
+        text-decoration: none;
+        color: rgb(78, 70, 70);
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    /* Desktop hero */
+    .hero {
+        width: 100%;
+        height: 700px;
+        align-items: center;
+    }
+
+    
+    .main {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
+        padding-top: 300px;
+    }
+
+  
+    .main span {
+        color: #ff8201;
+    }
+
+    /* Desktop hero buttons */
+    .button1 button {
+        height: 50px;
+        width: 200px;
+        border-radius: 30px;
+        color: white;
+        border: 2px solid white;
+        background-color: #ff8201;
+    }
+
+  
+    .arrow {
+        display: flex;
+        justify-content: space-between;
+    }
+
+  
+    .arrow button {
+        height: 50px;
+        width: 50px;
+        background-color: black;
+    }
+
+    /* Button hover effect */
+    button:hover {
+        background-color: orangered;
+    }
+
+  
+    .sketch {
+        height: 100%;
+        width: 1500px;
+        background-position: 10px;
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+    }
+
+   
+    .para {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        margin-left: 200px;
+    }
+
+  
+
+    .hed {
+        width: 90%;
+        max-width: 1100px;
+
+        margin: 0 auto 30px;
+    }
+
+    .block {
+        width: 90%;
+        max-width: 1100px;
+
+        margin: 0 auto;
+        padding: 0;
+
+        display: flex;
+        justify-content: space-between;
+
+
+        gap: 25px;
+    }
+
+    .block1 {
+
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+
+    .data {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+  
+    .icon img {
+        display: none;
+    }
+
+   
+    .review {
+        width: 100%;
+
+        height: auto;
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .review h3 {
+        padding-right: 0;
+    }
+
+    .img1 {
+        height: 50px;
+        width: 50px;
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+
+    .testino {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+
+    .info p {
+        padding-left: 0;
+        margin: 0;
+    }
+
+
+    .carimg {
+        height: 100%;
+        display: flex;
+
+    }
+
+
+    .car1 {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .non {
+        display: none;
+    }
+
+
+    .hed2 {
+        width: 750px;
+        text-align: end;
+
+
+    }
+
+    .news {
+        height: 50%;
+    }
+
+    .news1 {
+        width: 50vw;
+        height: 300px;
+        display: flex;
+        margin: 0% 15%;
+        margin-top: 20px;
+        overflow-y: hidden;
+        padding-left: 200px;
+    }
+
+    .news1 img {
+        height: 250px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    .info1 h2 {
+        color: black;
+    }
+
+
+
+
+
+
+    /* FOOTER */
+
+    .base {
+        width: 100%;
+        background-color: #111111;
+        color: #ffffff;
+
+        padding: 30px 0;
+
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .footer {
+        width: 90%;
+        max-width: 1200px;
+
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        box-sizing: border-box;
+    }
+
+
+
+
+    .foot {
+        display: flex;
+        align-items: center;
+
+        gap: 35px;
+
+        margin: 0;
+        padding: 0;
+
+        width: auto;
+    }
+
+
+
+
+    .foot1 {
+        display: flex;
+        align-items: center;
+
+        gap: 25px;
+
+        margin: 0;
+        padding: 0;
+
+        width: auto;
+    }
+
+    .foot1 img {
+        width: 120px;
+        height: auto;
+
+        display: block;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .foot1 p {
+        margin: 0;
+        padding: 0;
+
+        color: #ffffff;
+
+        font-size: 13px;
+
+        white-space: nowrap;
+    }
+
+
+
+    .foot2 {
+        display: flex;
+        align-items: center;
+
+        gap: 25px;
+
+        margin: 0;
+        padding: 0;
+
+        width: auto;
+    }
+
+    .foot2 p {
+        margin: 0;
+        padding: 0;
+
+        color: #ffffff;
+
+        font-size: 13px;
+
+
+    }
+
+
+    /*COPYRIGHT  */
+
+    .foot3 {
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+
+        margin: 0;
+        padding: 0;
+
+        width: auto;
+    }
+
+    .foot3 p {
+        margin: 0;
+        padding: 0;
+
+        color: #999999;
+
+        font-size: 12px;
+
+    }
+
+
+    .foot3 img {
+        width: 30px;
+        height: 30px;
+
+        display: block;
+
+        margin: 0;
+        padding: 0;
+
+        object-fit: contain;
+    }
+
+}
